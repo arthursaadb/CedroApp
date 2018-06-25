@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cedro_color">#309f42</color>
+    <color name="cedro_button">#ffffff</color>
+    <color name="accentColor">#00e673</color>
+</resources>

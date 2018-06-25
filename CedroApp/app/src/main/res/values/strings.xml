@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CedroSenhas</string>
+    <string name="request_error">Erro na requisição!</string>
+    <string name="title_activity_sites_acitivy">SitesAcitivy</string>
+    <string name="blankEmail">O email não pode ficar em branco</string>
+    <string name="blankPassword">A senha não pode ficar em branco</string>
+    <string name="passwordError">A senha deve conter 8 ou mais caracteres, dos quais deve possuir 1 letra,1 número e 1 caractere especial!</string>
+    <string name="blankName">O nome não pode ficar em branco</string>
+    <string name="errorEmail">Email no formato incorreto</string>
+    <string name="registerSucess">Usuário cadastrado com sucesso</string>
+    <string name="registerError">Erro no cadastro do usuário</string>
+    <string name="loginError">Erro no login do usuário</string>
+    <string name="sucessRegister">Cadastro realizado com sucesso!</string>
+    <string name="sucessCreate">Site cadastrado com sucesso</string>
+    <string name="errorCreate">Erro no cadastro do site</string>
+    <string name="password">Senha</string>
+    <string name="existsAccount">Não possui conta? Crie a sua</string>
+    <string name="login">Login</string>
+    <string name="verifyUser">Já é usuário? Login</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="senha">Senha</string>
+    <string name="email">Email</string>
+    <string name="nome">Nome</string>
+    <string name="cedrosenhas">CedroSenhas</string>
+    <string name="url">Url</string>
+    <string name="cadastro_site">Cadastro Site</string>
+    <string name="usu_rio_email">Usuário/Email</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="detailsSite">Detalhes Site</string>
+    <string name="excluir">Excluir</string>
+    <string name="editar">Editar</string>
+    <string name="deleteSite">Site deletado com sucesso</string>
+    <string name="urlWrong">URL no formato incorreto</string>
+    <string name="blankUrl">A url não pode ficar em branco</string>
+    <string name="coyTransfer">Copiado para área de transferencia!</string>
+    <string name="urlIncorreta">Url no formato incorreto</string>
+</resources>
