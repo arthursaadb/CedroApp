@@ -41,12 +41,12 @@ import javax.crypto.spec.GCMParameterSpec;
 import javax.security.auth.x500.X500Principal;
 import javax.security.cert.CertificateException;
 
-public class AKSEncryptor {
+public class AKSOperations {
 
     private KeyStore keyStore;
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
-    public AKSEncryptor(Context context, String alias) {
+    public AKSOperations(Context context, String alias) {
         try {
             keyStore = KeyStore.getInstance("AndroidKeyStore");
             keyStore.load(null);

@@ -4,17 +4,17 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
 
-import com.example.arthursaad.cedroapp.aks.AKSEncryptor;
+import com.example.arthursaad.cedroapp.aks.AKSOperations;
 
 public class AksHelper {
 
-    private static AKSEncryptor encryptionHelper;
+    private static AKSOperations encryptionHelper;
     private final String SAMPLE_ALIAS = "CEDROSENHAS";
 
 
     @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
     public AksHelper(Context context){
-        encryptionHelper = new AKSEncryptor(context,SAMPLE_ALIAS);
+        encryptionHelper = new AKSOperations(context,SAMPLE_ALIAS);
     }
 
     public String encryptText(String text)  {

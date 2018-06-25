@@ -25,7 +25,7 @@ import javax.crypto.SecretKey;
 import javax.crypto.spec.GCMParameterSpec;
 import javax.security.cert.CertificateException;
 
-public class AKSDecryptor{
+public class AKSKey {
 
     private static final String TRANSFORMATION = "AES/GCM/NoPadding";
     private static final String ANDROID_KEY_STORE = "AndroidKeyStore";
@@ -36,7 +36,7 @@ public class AKSDecryptor{
     private byte[] encryption;
     private byte[] iv;
 
-    public AKSDecryptor(final String alias) throws CertificateException, NoSuchAlgorithmException, KeyStoreException,
+    public AKSKey(final String alias) throws CertificateException, NoSuchAlgorithmException, KeyStoreException,
             IOException {
         initKeyStore(alias);
     }
